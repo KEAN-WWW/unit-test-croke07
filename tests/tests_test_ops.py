@@ -1,5 +1,6 @@
 import pytest
-from calculator import ops
+
+import calculator as ops
 
 def test_add():
     assert ops.add(2, 3) == 5
