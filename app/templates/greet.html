@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greeting Page</title>
+</head>
+<body>
+  {% if name|lower == 'jack' %}
+    <h1>Hello, {{ name|upper }}!</h1>
+  {% else %}
+    <h1>Hi, Anonymous!</h1>
+  {% endif %}
+</body>
+</html>
